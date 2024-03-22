@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2024-03-22T13:57:27.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="D_zyM1vGd3C8PRk6aYgt" version="24.0.8" type="device">
+  <diagram name="Page-1" id="eVM0ZRVJzIsdJS_4Yi4U">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OdpvJawxME4M-j-Un3b3-1" value="&lt;p style=&quot;padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Virtual Network (Vnet)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="350" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=34;startSize=11.73;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OdpvJawxME4M-j-Un3b3-1" target="OdpvJawxME4M-j-Un3b3-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-11" value="VNet Peering&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OdpvJawxME4M-j-Un3b3-10">
+          <mxGeometry x="-0.06" y="-9" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="180" width="350" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-5" value="&lt;p style=&quot;padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Virtual Network (Vnet)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry width="350" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-6" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="140" y="50" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-7" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="50" y="380" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-8" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="120" y="160" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-9" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="80" y="270" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-15" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="140" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-16" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="120" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-17" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="80" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-18" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="50" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-32" value="Public IP address for Intbound" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-25">
+          <mxGeometry x="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="460" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-26" value="&lt;p style=&quot;padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Virtual Network - Subnet (Vnet)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-27">
+          <mxGeometry width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-3" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-27">
+          <mxGeometry x="10" y="50" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-14" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-27">
+          <mxGeometry x="180" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-33" value="Kubernete etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-27">
+          <mxGeometry x="10" y="180" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="100" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-19" value="&lt;p style=&quot;padding-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Virtual Network Subnet (Vnet)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-28">
+          <mxGeometry width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-2" value="Virtual Machine on Azure" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-28">
+          <mxGeometry x="10" y="50" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-4" value="Virtual Machine" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-28">
+          <mxGeometry x="10" y="170" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-12" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-28">
+          <mxGeometry x="90" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-13" value="IP Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OdpvJawxME4M-j-Un3b3-28">
+          <mxGeometry x="150" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-29" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdpvJawxME4M-j-Un3b3-26" target="OdpvJawxME4M-j-Un3b3-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-30" value="Define Routes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OdpvJawxME4M-j-Un3b3-29">
+          <mxGeometry x="-0.05" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-31" value="Public IP address for Intbound" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-37" value="VPN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdpvJawxME4M-j-Un3b3-34" target="OdpvJawxME4M-j-Un3b3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-38" value="Express Route" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OdpvJawxME4M-j-Un3b3-34" target="OdpvJawxME4M-j-Un3b3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OdpvJawxME4M-j-Un3b3-34" value="Secure transmit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="840" width="270" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
