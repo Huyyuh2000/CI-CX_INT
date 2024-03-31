@@ -16,6 +16,10 @@
 |No|Name|Meaning|
 |:-:|:-|:-|
 |1|SAAS|Software as a Service - Ex: Slack or Office 365 on Browser|
+|2|SSO|Single signed on|
+|3|SAML|Security Assertion Markup Language - Its primary role in online security is that it enables you to access multiple web application with one login credentials|
+|4|UDP|The User Datagram Protocal - it is a communication protocol used across the Internet for especially time-sensitive transmission such as video playback or DNS lookups|
+|5|TCP||
 
 # Overview
 - Azure ru from Microsoft servers around the word
@@ -88,5 +92,26 @@
     |Roled|Benefit|
     |:-|:-|
     |IT Admins|- Control access to apps and app resources based on requirements <br> - Automate user provisioning <br> - Provided powerful tools to protect identities and credentials|
-    |App developers|- Using Entra ID as a standard-based authentication provider that helps them add single signed on (SSO) to apps that work with existing user credential <br> - Can use Entra API to build personalized experiance using organizational data|
+    |App developers|- Using Entra ID as a standard-based authentication provider that helps them add single signed on (SSO) to apps that work with existing user credential <br> - Can use Entra API to build personalized experience using organizational data|
     |Subscribers|- Such as Microsoft 365,.. -> Already use Entra ID|
+- ```Various benefit features advantages of Azure Active Directory```
+    - Single signed on to any cloud or on premises applications
+    - Protect on-premises web applications with security remote access
+    - Protect sensitive data and application
+    - Reduce costs and enhance security
+
+- Comparison between On Premise Active Directory and Azure Active Directory
+    ||ADDS|AAD|
+    |:-:|:-|:-|
+    |1|Host by virtual machine|Cloud base application available when subscript in Azure|
+    |2|High hierarchy structure - group in organization |Flat structure - can join window domain join feature to access ADDS|
+
+- Multi Factor Authentication (MFA)
+    - MFA is using more than 2 factors of authentication
+    - Type of factor authentication: something you know, something you are, something you have
+
+    ||something you know|something you are|something you have|
+    |:-:|:-|:-|:-|
+    |Example|password|fingerprint, face id|use another device for authenticate - soft token in app of smartphone or hard token|
+    |In AAD|yes|no|yes|
+
